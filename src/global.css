@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #efefef;
+  font-family: "Poppins", sans-serif;
+}
+.open {
+  display: block !important;
+  width: 26%;
+  height: 147vh;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  top: 0;
+  box-shadow: 4px 6px 3px 4px;
+  animation-name: slide;
+  animation-duration: 0.6s;
+  animation-direction: normal;
+  padding-right: 10px;
+  /* scroll-behavior: smooth;
+  position: -ms-page;
+  overflow: scroll; */
+}
+@keyframes slide {
+  0% {
+    transform: translate3d(480px, 0, 0);
+  }
+}
+
+.close {
+  display: none;
+}
+.unselected {
+  border-bottom: 2px solid !important;
+}

@@ -1,0 +1,74 @@
+.homeDataBlock {
+  background: rgba(12, 11, 11, 0.491);
+  width: 80%;
+  height: 150px;
+  position: relative;
+  top: 150px;
+  left: 140px;
+}
+.homeDataBlock article ul {
+  height: 50px;
+  width: 60%;
+  margin: 0px 0px 0px 70px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.homeDataBlock article ul a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.homeDataBlock article ul a:any-link:active {
+  border-bottom: 2px solid #fff;
+}
+.homeDataBlockNEW a {
+  position: relative;
+}
+.homeDataBlockNEW a span {
+  position: absolute;
+  top: -8px;
+  right: 11px;
+  font-size: 10px;
+  background: deeppink;
+  color: #fff;
+  border-radius: 40%;
+  padding: 0px 6px;
+}
+
+.homeDataBlock div {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.homeDataBlock div select {
+  padding: 20.5px;
+  border: none;
+  outline: none;
+}
+.homeDataBlock div input {
+  padding: 20.5px;
+  width: 700px;
+  border: none;
+  outline: none;
+}
+.homeDataBlock div button {
+  padding: 19px 30px;
+  width: 120px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  outline: none;
+  background: green;
+  color: #fff;
+  font-size: 16px;
+}
+.homeDataBlock div button svg {
+  margin: 0px 10px 0px 0px;
+}

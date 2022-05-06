@@ -1,0 +1,56 @@
+.buyerBlock {
+  height: 85vh;
+  width: 100%;
+  background-image: url("https://c.housingcdn.com/demand/s/common/assets/defaultBanner.318ea184.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+}
+.buyerContnt {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+.buyerContnt p {
+  color: #fff;
+  font-size: 21px;
+  background-color: #6163635a;
+  width: 25%;
+  margin: 0 auto;
+}
+.rentBlock {
+  height: 85vh;
+  width: 100%;
+  background-image: url("https://c.housingcdn.com/demand/s/common/assets/defaultBannerRent.db0014a6.jpg"),
+    linear-gradient(to bottom, #0e0f10, #323536, #616363, #a4a8a6, #f2f5ec);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pgcolivinBlock {
+  height: 85vh;
+  width: 100%;
+  background-image: url("https://c.housingcdn.com/demand/s/common/assets/img1.8c0359b6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.commercialBlock {
+  height: 85vh;
+  width: 100%;
+  background-image: url("https://c.housingcdn.com/demand/s/common/assets/defaultBannerCommercial.a281bb54.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.plotesBlock {
+  height: 85vh;
+  width: 100%;
+  background-image: url("https://c.housingcdn.com/demand/s/common/assets/defaultBannerPlot.c2e0fa53.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

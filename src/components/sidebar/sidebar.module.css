@@ -1,0 +1,228 @@
+.sidebarBlock {
+  background: #efefef;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+.sidebarBlockDiv1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid;
+  padding: 10px;
+}
+.sidebarBlockDiv1 > span > svg {
+  font-size: 50px;
+  color: blueviolet;
+}
+.sidebarBlockDiv1 div {
+  height: 100px;
+  font-size: 13px;
+  padding: 15px 2px;
+}
+.sidebarBlockDiv1 div span {
+  color: green;
+  padding: 10px 0px;
+  padding-right: 3px;
+}
+.sidebarBlockDiv1 div h1 {
+  font-size: 14px;
+}
+.sidebarBlockDiv1 button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: green;
+  cursor: pointer;
+}
+.sidebarBlockDiv2 h1 {
+  font-size: 16px;
+  padding: 10px 5px;
+}
+.sidebarBlockDiv2 main ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sidebarBlockDiv2 main ul li {
+  border: 1px solid;
+  width: 75px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 10px;
+  padding: 5px 1px 5px 1px;
+  margin: 2px;
+  background: #fff;
+  list-style: none;
+}
+.sidebarBlockDiv2 main ul li span svg {
+  color: blueviolet;
+  font-size: 16px;
+}
+.sidebarBlockDiv2 > main > ul > li:hover {
+  border: 1px solid blueviolet;
+  box-shadow: 1px 1px 2px blueviolet;
+  cursor: pointer;
+}
+
+.transaction > div > ul {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 5px 5px 5px 14px;
+  list-style: none;
+}
+.transaction > div > ul li:nth-child(2) {
+  width: 165px;
+  text-align: center;
+}
+.transaction > div > ul {
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+.detailsSummaryBlock details summary {
+  display: flex;
+  list-style: none;
+  padding: 7px 13px 5px 13px;
+}
+.transaction > div > ul:hover {
+  background: rgba(226, 207, 243, 0.595);
+}
+.detailsSummaryBlock details summary:hover {
+  background: rgba(226, 207, 243, 0.595);
+}
+.detailsSummaryBlock details summary ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+}
+.detailsSummaryBlock details ul li:nth-child(2) {
+  width: 250px;
+  text-align: left;
+  padding-left: 20px;
+}
+.btndiv1 {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+.btndiv1 button {
+  padding: 11px;
+  border-radius: 10px;
+  border: 1px solid;
+  background: #fff;
+}
+.btndiv1 button ul,
+.btndiv2 button ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.btndiv1 button ul li:nth-child(2) {
+  width: 200px;
+  font-size: 15px;
+  color: blueviolet;
+}
+.btndiv1 button:hover,
+.btndiv2 button:hover {
+  background: rgba(226, 207, 243, 0.595);
+}
+.btndiv1 button ul li:nth-child(3) {
+  width: 50px;
+  font-size: 15px;
+}
+.btndiv2 {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+.btndiv2 button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  background: #fff;
+}
+.btndiv2 button ul li:nth-child(2) {
+  width: 200px;
+  font-size: 15px;
+  color: blueviolet;
+}
+.downloadBlock {
+  padding: 15px;
+}
+.downloadBlock div {
+  background: #efefef;
+  padding: 10px 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.downloadBlock img {
+  width: 60px;
+  height: 60px;
+}
+.downloadBlock div aside {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+.downloadBlock div main aside button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+  font-size: 10px;
+  width: 100px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 2px;
+  margin: 2px;
+}
+.downloadBlock div main aside button svg {
+  font-size: 16px;
+}
+.downloadBlock div main h4 {
+  font-size: 12px;
+  padding: 6px;
+}
+.sidebarEnd ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+  font-size: 14px;
+}
+.detailData ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.detailData ul li {
+  border: 1px solid;
+  width: 75px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 10px;
+  padding: 5px 1px 5px 1px;
+  margin: 2px;
+  background: #fff;
+  list-style: none;
+}
+.detailData ul li span svg {
+  color: blueviolet;
+  font-size: 16px;
+}
+.detailData > ul > li:hover {
+  border: 1px solid blueviolet;
+  box-shadow: 1px 1px 2px blueviolet;
+  cursor: pointer;
+}
